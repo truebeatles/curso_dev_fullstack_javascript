@@ -1,0 +1,169 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    /*width: auto;*/
+}
+
+    .container {
+        /*margin: 0 auto;*/
+        text-align:justify;
+        box-sizing: inherit;
+        display: inline-block;
+    }
+
+        .coluna1 {
+            width: 20%;
+            height: 1450px;
+            box-sizing: inherit;
+            float: left;
+            background-color: #335384;
+        }
+            .foto_socialmidia {
+                text-align:center;
+                margin-bottom: 20px;
+                background-color: #335384;
+ 
+            }
+                .foto {
+                    width: 200px;
+                    border: 2px solid white; /* shorthand */
+                    border-radius: 50%;
+
+                    margin: 20px;
+                    /*padding: 10px;*/
+                    box-shadow: 0px 15px 15px gray;
+                    
+                }
+                    
+                .linkedinlink {
+                    text-decoration: none;
+                }
+
+                .linkedinicon {
+                    width: 40px;
+                }
+
+                .email {
+                    color: white;
+                }
+            .hr {
+                padding: 0 18px;
+            }
+                hr {
+                    border: 1px solid white;
+                    padding: 0 30px;
+                }
+            .habilidades {
+                margin: 20px;
+                color: white;
+            }
+
+
+
+
+        .coluna2 {
+            width: 80%;
+            height: 1450px;
+            box-sizing: inherit;
+            float: left;
+            
+                   
+        }
+            .nome_ocupacao {
+                /*background-image: url(matrixblue.jpg);*/
+                /*background-repeat: no-repeat; */
+                /* background-position: 100% 10%; */
+                background-position: center center;
+                /*background-size: cover;*/
+                /*background-attachment: fixed;*/
+                width: 100%;
+                height: 328.8px;
+                background-color: #335384;
+                display: table;
+                padding-left: 30px;
+                                
+            }
+                h1 {
+                    color: white;
+                    /*color: midnightblue;*/
+                    /*margin-top: 10px;
+                    margin-bottom: 0;*/
+                    letter-spacing: -1px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 40px;
+                    padding-top: 70px;
+                }
+
+                #ocupacao {
+                    color: whitesmoke;
+                    font-style: italic;
+                    margin-top: 0;
+                    font-weight: lighter;
+                    letter-spacing: -1px;
+                }
+            
+            .coluna2_2ndpart {
+                padding: 0 20px;
+                color: #021859;
+            }    
+                .introduction {
+                    padding-left: 20px;
+                }
+
+                .job_list {
+                    list-style: disc;
+                    padding-left: 30px;
+                }
+                
+                    h4  {
+                        margin-bottom: 5px;
+                    }
+                    
+                    h5 {
+                        margin: 0 0 5px;
+                        font-style: italic;
+                    }
+                    
+                    h6 {
+                        margin: 0 0 5px;
+                    }
+                    
+                        .assignments_activities {
+                            padding-left: 0;
+                        
+                        }
+                                                
+                            .assignment_title {
+                                padding-left: 15px;
+                                text-decoration-line: underline;
+                            
+                            }
+                            
+                                .assignment_text {
+                                    padding-left: 25px;
+                                }
+                        
+                            .activity_title {
+                                margin-top: 5px;
+                                font-weight: 50px;
+                                font-style: inherit;
+                            }
+                            
+                                .activity_text {
+                                    padding-left: 25px;
+                                }
+
+
+
+
+    .footer {
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        font-size: 70%;
+        /*width: 100%;*/
+    }
+
+
+
